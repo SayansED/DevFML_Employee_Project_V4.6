@@ -1,6 +1,6 @@
 I am not responsible for any damage caused by installing the software on your hardware.
 
-Esse Software foi desenvolvido por Eduardo Sayans. Versão do Software: V1.8
+Esse Software foi desenvolvido por Eduardo Sayans. Versão do Software: V4.6
 
 Contato: devfastml@outlook.com Especificar no assunto do e-mail o motivo do contato.
 
