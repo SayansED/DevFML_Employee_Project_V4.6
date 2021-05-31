@@ -5,7 +5,6 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 import javax.swing.JOptionPane;
-
 import sistema.Navegador;
 import sqlite.Conexao;
 
@@ -21,9 +20,9 @@ public class RelatoriosCargosConstroiGrafico {
 	public static int constroiGraficoMesJaneiro(int pAnoAtual) {
 		int anoJaneiro=0;
 		
-		// Conexão
+		// ConexÃ£o
 		Conexao conexao = new Conexao();
-		// Instrução SQL
+		// InstruÃ§Ã£o SQL
 		Statement instrucaoSQL;
 		// Resultados
 		ResultSet resultados;
@@ -40,7 +39,7 @@ public class RelatoriosCargosConstroiGrafico {
 			}
 			return anoJaneiro;
 		} catch (SQLException ex) {
-			JOptionPane.showMessageDialog(null, "Ocorreu um erro criar o relatório.\n\n" + ex.getMessage());
+			JOptionPane.showMessageDialog(null, "Ocorreu um erro criar o relatÃ³rio.\n\n" + ex.getMessage());
 		}
 		return anoJaneiro;
 	}
@@ -49,9 +48,9 @@ public class RelatoriosCargosConstroiGrafico {
 	public static int constroiGraficoMesFevereiro(int pAnoAtual) {
 		int anoFevereiro=0;
 		
-		// Conexão
+		// ConexÃ£o
 		Conexao conexao = new Conexao();
-		// Instrução SQL
+		// InstruÃ§Ã£o SQL
 		Statement instrucaoSQL;
 		// Resultados
 		ResultSet resultados;
@@ -68,18 +67,18 @@ public class RelatoriosCargosConstroiGrafico {
 			}
 			return anoFevereiro;
 		} catch (SQLException ex) {
-			JOptionPane.showMessageDialog(null, "Ocorreu um erro criar o relatório.\n\n" + ex.getMessage());
+			JOptionPane.showMessageDialog(null, "Ocorreu um erro criar o relatÃ³rio.\n\n" + ex.getMessage());
 		}
 		return anoFevereiro;
 	}
 	
-	// Março
+	// MarÃ§o
 	public static int constroiGraficoMesMarco(int pAnoAtual) {
 		int anoMarco=0;
 		
-		// Conexão
+		// ConexÃ£o
 		Conexao conexao = new Conexao();
-		// Instrução SQL
+		// InstruÃ§Ã£o SQL
 		Statement instrucaoSQL;
 		// Resultados
 		ResultSet resultados;
@@ -96,7 +95,7 @@ public class RelatoriosCargosConstroiGrafico {
 			}
 			return anoMarco;
 		} catch (SQLException ex) {
-			JOptionPane.showMessageDialog(null, "Ocorreu um erro criar o relatório.\n\n" + ex.getMessage());
+			JOptionPane.showMessageDialog(null, "Ocorreu um erro criar o relatÃ³rio.\n\n" + ex.getMessage());
 		}
 		return anoMarco;
 	}
@@ -105,9 +104,9 @@ public class RelatoriosCargosConstroiGrafico {
 	public static int constroiGraficoMesAbril(int pAnoAtual) {
 		int anoAbril=0;
 		
-		// Conexão
+		// ConexÃ£o
 		Conexao conexao = new Conexao();
-		// Instrução SQL
+		// InstruÃ§Ã£o SQL
 		Statement instrucaoSQL;
 		// Resultados
 		ResultSet resultados;
@@ -124,7 +123,7 @@ public class RelatoriosCargosConstroiGrafico {
 			}
 			return anoAbril;
 		} catch (SQLException ex) {
-			JOptionPane.showMessageDialog(null, "Ocorreu um erro criar o relatório.\n\n" + ex.getMessage());
+			JOptionPane.showMessageDialog(null, "Ocorreu um erro criar o relatÃ³rio.\n\n" + ex.getMessage());
 		}
 		return anoAbril;
 	}
@@ -133,9 +132,9 @@ public class RelatoriosCargosConstroiGrafico {
 	public static int constroiGraficoMesMaio(int pAnoAtual) {
 		int anoMaio=0;
 		
-		// Conexão
+		// ConexÃ£o
 		Conexao conexao = new Conexao();
-		// Instrução SQL
+		// InstruÃ§Ã£o SQL
 		Statement instrucaoSQL;
 		// Resultados
 		ResultSet resultados;
@@ -152,7 +151,7 @@ public class RelatoriosCargosConstroiGrafico {
 			}
 			return anoMaio;
 		} catch (SQLException ex) {
-			JOptionPane.showMessageDialog(null, "Ocorreu um erro criar o relatório.\n\n" + ex.getMessage());
+			JOptionPane.showMessageDialog(null, "Ocorreu um erro criar o relatÃ³rio.\n\n" + ex.getMessage());
 		}
 		return anoMaio;
 	}
@@ -161,9 +160,9 @@ public class RelatoriosCargosConstroiGrafico {
 	public static int constroiGraficoMesJunho(int pAnoAtual) {
 		int anoJunho=0;
 		
-		// Conexão
+		// ConexÃ£o
 		Conexao conexao = new Conexao();
-		// Instrução SQL
+		// InstruÃ§Ã£o SQL
 		Statement instrucaoSQL;
 		// Resultados
 		ResultSet resultados;
@@ -180,7 +179,7 @@ public class RelatoriosCargosConstroiGrafico {
 			}
 			return anoJunho;
 		} catch (SQLException ex) {
-			JOptionPane.showMessageDialog(null, "Ocorreu um erro criar o relatório.\n\n" + ex.getMessage());
+			JOptionPane.showMessageDialog(null, "Ocorreu um erro criar o relatÃ³rio.\n\n" + ex.getMessage());
 		}
 		return anoJunho;
 	}
@@ -189,9 +188,9 @@ public class RelatoriosCargosConstroiGrafico {
 	public static int constroiGraficoMesJulho(int pAnoAtual) {
 		int anoJulho=0;
 		
-		// Conexão
+		// ConexÃ£o
 		Conexao conexao = new Conexao();
-		// Instrução SQL
+		// InstruÃ§Ã£o SQL
 		Statement instrucaoSQL;
 		// Resultados
 		ResultSet resultados;
@@ -208,7 +207,7 @@ public class RelatoriosCargosConstroiGrafico {
 			}
 			return anoJulho;
 		} catch (SQLException ex) {
-			JOptionPane.showMessageDialog(null, "Ocorreu um erro criar o relatório.\n\n" + ex.getMessage());
+			JOptionPane.showMessageDialog(null, "Ocorreu um erro criar o relatÃ³rio.\n\n" + ex.getMessage());
 		}
 		return anoJulho;
 	}
@@ -217,9 +216,9 @@ public class RelatoriosCargosConstroiGrafico {
 	public static int constroiGraficoMesAgosto(int pAnoAtual) {
 		int anoAgosto=0;
 		
-		// Conexão
+		// ConexÃ£o
 		Conexao conexao = new Conexao();
-		// Instrução SQL
+		// InstruÃ§Ã£o SQL
 		Statement instrucaoSQL;
 		// Resultados
 		ResultSet resultados;
@@ -236,7 +235,7 @@ public class RelatoriosCargosConstroiGrafico {
 			}
 			return anoAgosto;
 		} catch (SQLException ex) {
-			JOptionPane.showMessageDialog(null, "Ocorreu um erro criar o relatório.\n\n" + ex.getMessage());
+			JOptionPane.showMessageDialog(null, "Ocorreu um erro criar o relatÃ³rio.\n\n" + ex.getMessage());
 		}
 		return anoAgosto;
 	}
@@ -245,9 +244,9 @@ public class RelatoriosCargosConstroiGrafico {
 	public static int constroiGraficoMesSetembro(int pAnoAtual) {
 		int anoSetembro=0;
 		
-		// Conexão
+		// ConexÃ£o
 		Conexao conexao = new Conexao();
-		// Instrução SQL
+		// InstruÃ§Ã£o SQL
 		Statement instrucaoSQL;
 		// Resultados
 		ResultSet resultados;
@@ -264,7 +263,7 @@ public class RelatoriosCargosConstroiGrafico {
 			}
 			return anoSetembro;
 		} catch (SQLException ex) {
-			JOptionPane.showMessageDialog(null, "Ocorreu um erro criar o relatório.\n\n" + ex.getMessage());
+			JOptionPane.showMessageDialog(null, "Ocorreu um erro criar o relatÃ³rio.\n\n" + ex.getMessage());
 		}
 		return anoSetembro;
 	}
@@ -273,9 +272,9 @@ public class RelatoriosCargosConstroiGrafico {
 	public static int constroiGraficoMesOutubro(int pAnoAtual) {
 		int anoOutubro=0;
 		
-		// Conexão
+		// ConexÃ£o
 		Conexao conexao = new Conexao();
-		// Instrução SQL
+		// InstruÃ§Ã£o SQL
 		Statement instrucaoSQL;
 		// Resultados
 		ResultSet resultados;
@@ -292,7 +291,7 @@ public class RelatoriosCargosConstroiGrafico {
 			}
 			return anoOutubro;
 		} catch (SQLException ex) {
-			JOptionPane.showMessageDialog(null, "Ocorreu um erro criar o relatório.\n\n" + ex.getMessage());
+			JOptionPane.showMessageDialog(null, "Ocorreu um erro criar o relatÃ³rio.\n\n" + ex.getMessage());
 		}
 		return anoOutubro;
 	}
@@ -301,9 +300,9 @@ public class RelatoriosCargosConstroiGrafico {
 	public static int constroiGraficoMesNovembro(int pAnoAtual) {
 		int anoNovembro=0;
 		
-		// Conexão
+		// ConexÃ£o
 		Conexao conexao = new Conexao();
-		// Instrução SQL
+		// InstruÃ§Ã£o SQL
 		Statement instrucaoSQL;
 		// Resultados
 		ResultSet resultados;
@@ -320,7 +319,7 @@ public class RelatoriosCargosConstroiGrafico {
 			}
 			return anoNovembro;
 		} catch (SQLException ex) {
-			JOptionPane.showMessageDialog(null, "Ocorreu um erro criar o relatório.\n\n" + ex.getMessage());
+			JOptionPane.showMessageDialog(null, "Ocorreu um erro criar o relatÃ³rio.\n\n" + ex.getMessage());
 		}
 		return anoNovembro;
 	}
@@ -329,9 +328,9 @@ public class RelatoriosCargosConstroiGrafico {
 	public static int constroiGraficoMesDezembro(int pAnoAtual) {
 		int anoDezembro=0;
 		
-		// Conexão
+		// ConexÃ£o
 		Conexao conexao = new Conexao();
-		// Instrução SQL
+		// InstruÃ§Ã£o SQL
 		Statement instrucaoSQL;
 		// Resultados
 		ResultSet resultados;
@@ -348,7 +347,7 @@ public class RelatoriosCargosConstroiGrafico {
 			}
 			return anoDezembro;
 		} catch (SQLException ex) {
-			JOptionPane.showMessageDialog(null, "Ocorreu um erro criar o relatório.\n\n" + ex.getMessage());
+			JOptionPane.showMessageDialog(null, "Ocorreu um erro criar o relatÃ³rio.\n\n" + ex.getMessage());
 		}
 		return anoDezembro;
 	}
